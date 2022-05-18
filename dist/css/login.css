@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("../img/coding_comunity.jpg");
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto Serif', serif;
+    font-family: 'Space Mono', monospace;
+}
+
+
+.registrationForm{
+    width: 550px;
+    height: 450px;
+    background-color: rgb(224, 216, 216, 0.9);
+    position: absolute;
+    top: 150px;
+    left: 480px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+
+
+h5{
+    font-weight: bold;
+    
+    margin: 20px 0 ;
+}
+
+.regLink{
+    height: 50px;
+    width: 200px;   
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 220px;
+}
+
+.mainContainer .registrationForm .regLink a {
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+}
+
+a{
+    font-size: 18px;
+    color: black;
+}
+
+
+
+
+
